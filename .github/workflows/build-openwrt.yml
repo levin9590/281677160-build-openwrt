@@ -14,7 +14,7 @@ on:
     inputs:
       ssh:
         description: 'SSH远程'
-        required: false
+        required: TRUE
         default: 'ssh-actions'
       wxtz:
         description: '微信通知'
